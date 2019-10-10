@@ -6,7 +6,7 @@ namespace Freenove {
     let SH_CP_PIN: DigitalPin
     //% subcategory="Shift Out"
     //% group="74HC595"
-    //% block="Initialization |DS %DS|STCP %ST_CP|SHCP %SH_CP"
+    //% block="initialization |ds %DS|st_cp %ST_CP|sh_cp %SH_CP"
     export function Initialization(DS: DigitalPin, ST_CP: DigitalPin, SH_CP: DigitalPin) {
         DS_PIN = DS
         ST_CP_PIN = ST_CP
@@ -14,7 +14,7 @@ namespace Freenove {
     }
     //% subcategory="Shift Out"
     //% group="74HC595"
-    //% block="Write Data %dig|ORDER %order"
+    //% block="write data %dig|order %order"
     //% dig.min=0 dig.max=255
     export function Write_Data(dig: number, order: Order) {
         pins.digitalWritePin(ST_CP_PIN, 0)
@@ -36,7 +36,7 @@ namespace Freenove {
     }
     //% subcategory="Shift Out"
     //% group="7 Segment Display"
-    //% block="Show Number %dig=number"
+    //% block="show number %dig=number"
     export function Show_Number(dig: number) {
         switch (dig){
             case 0:dig=Num.num0;break;
