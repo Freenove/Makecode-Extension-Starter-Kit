@@ -2,7 +2,7 @@
 
 Freenove Starter Kit Extension for makecode, mainly related to thermistors, 74HC595, digital tubes.
 
-<img src='picture/icon.png'/>
+<img src='icon.png'/>
 
 ## Starter Kit For Microbit
 * You can buy the Freenove Micro:Rover from here.<br>
@@ -29,7 +29,7 @@ Freenove.Shift_Operators(Data,Shift Operator,Figure) | Move data to the left (x)
 
 The file test.ts, which uses most of the blocks in this extension. 
 
-<img src='picture/Schematic.png'/>
+<img src='Schematic.png'/>
 
 ```
 Freenove.Initialization(DigitalPin.P0, DigitalPin.P1, DigitalPin.P2)
