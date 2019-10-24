@@ -6,7 +6,7 @@ namespace Freenove {
     let SH_CP_PIN: DigitalPin
     //% subcategory="Shift Out"
     //% group="74HC595"
-    //% block="initialization |ds %DS|st_cp %ST_CP|sh_cp %SH_CP"
+    //% block="set 74hc595 |data pin at %DS|launch pin at %ST_CP|clock pin at %SH_CP"
     export function Initialization(DS: DigitalPin, ST_CP: DigitalPin, SH_CP: DigitalPin) {
         DS_PIN = DS
         ST_CP_PIN = ST_CP
@@ -14,7 +14,7 @@ namespace Freenove {
     }
     //% subcategory="Shift Out"
     //% group="74HC595"
-    //% block="write data %dig|order %order"
+    //% block="write %dig|from %order"
     //% dig.min=0 dig.max=255
     export function Write_Data(dig: number, order: Order) {
         pins.digitalWritePin(ST_CP_PIN, 0)
@@ -148,8 +148,8 @@ enum Num {
     numf = 142,
 }
 enum Order {
-    //% block="MSBFIRST"
+    //% block="highest bit"
     MSBFIRST = 1,
-    //% block="LSBFIRST"
+    //% block="least bit"
     LSBFIRST = 0,
 }
