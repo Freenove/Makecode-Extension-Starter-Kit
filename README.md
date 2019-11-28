@@ -5,17 +5,12 @@ Freenove Starter Kit Extension for makecode, mainly related to thermistors, 74HC
 <img src='icon.png'/>
 
 ## Starter Kit For Microbit
-* You can buy the Freenove Micro:Rover from here.<br>
-    * United States: https://www.amazon.com/dp/B07QV5VS5W
-    * United Kingdom: https://www.amazon.co.uk/dp/B07QV5VS5W
-    * Germany: https://www.amazon.de/dp/B07QV5VS5W
-    * France: https://www.amazon.fr/dp/B07QV5VS5W
-    * Italy: https://www.amazon.it/dp/B07QV5VS5W
-    * Spain: https://www.amazon.es/dp/B07QV5VS5W
+* You can buy the Freenove Starter Kit for Micro:bit from here.<br>
+    * http://www.freenove.com/store.html
 * You can find all the information about it here.<br>
-    * https://github.com/Freenove/Freenove_Micro_Rover/
-* You can see its demo video here.
-    * https://youtu.be/H7P5lZo29lA
+    * https://github.com/Freenove/Makecode-Extension-Starter-Kit
+	
+
     
 ## Usage
 Function | Description
